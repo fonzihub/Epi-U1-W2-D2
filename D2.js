@@ -19,12 +19,10 @@ if(n1 > n2) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 const numero1 = 5
 const numero2 = 10
-if(numero1 === numero2){
-  console.log('5 e uguale a 10')
-
-}else{
-  console.log('not equal')
+if(numero1 !== numero2){
+  console.log("not equal")
 }
+
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
